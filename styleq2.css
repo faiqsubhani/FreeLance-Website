@@ -1,0 +1,106 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+   background-color: #333;
+}
+
+nav ul {
+   list-style-type: none;
+}
+
+nav ul li {
+   display: inline;
+}
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+   padding: 10px 20px;
+}
+
+.main-pic img {
+   width: 100%;
+}
+
+.main_sec {
+   background-color: #f8f9fa;
+}
+
+/* Add the provided CSS for the "Our Services" section here */
+.our-features {
+   background-color: #f8f8f8;
+   justify-content: center;
+   text-align: center;
+   padding: 50px 0;
+}
+
+.feature-heading {
+   font-size: 32px;
+   margin-bottom: 30px;
+   color: #4a90e2;
+   font-weight: 700;
+}
+
+.feature-cards-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.feature-card {
+   width: 300px;
+   margin: 20px;
+   border: 2px solid #4a90e2;
+   border-radius: 12px;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   background-color: #8B4513; /* Brown background color */
+   color: #ffffff; /* White text color */
+   transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+   transform: scale(1.05);
+}
+
+.feature-icon-container {
+   padding: 30px;
+   text-align: center;
+}
+
+.feature-icon-container img {
+   width: 120px;
+   height: auto;
+}
+
+.feature-details-box {
+   padding: 30px;
+}
+
+.feature-title {
+   font-size: 20px;
+   margin-bottom: 15px;
+   font-weight: 600;
+}
+
+.feature-description {
+   font-size: 16px;
+}
+
+.about-section {
+     background-color:white; 
+     color:black; 
+     padding-top :50px; 
+     padding-bottom :50px; 
+     text-align:center; 
+     border-radius :8px; 
+     font-size :20px; 
+}
